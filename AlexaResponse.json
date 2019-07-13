@@ -1,0 +1,142 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "health status",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "status",
+                    "slots": [],
+                    "samples": [
+                        "show me my health status",
+                        "what is my health status"
+                    ]
+                },
+                {
+                    "name": "healthtips",
+                    "slots": [],
+                    "samples": [
+                        "health tips",
+                        "tell me a health tip",
+                        "show some health tips",
+                        "list few health tips",
+                        "tell me few health tips"
+                    ]
+                },
+                {
+                    "name": "report",
+                    "slots": [],
+                    "samples": [
+                        "is my report avaliable",
+                        "what is my report status",
+                        "what is the status of my report"
+                    ]
+                },
+                {
+                    "name": "skintips",
+                    "slots": [],
+                    "samples": [
+                        "tell me few skin tips",
+                        "list few skin tips",
+                        "tell me a skin tips",
+                        "show some skin tips",
+                        "skin tips"
+                    ]
+                },
+                {
+                    "name": "food",
+                    "slots": [],
+                    "samples": [
+                        "food",
+                        "what food i have to take",
+                        "what type of food i should take"
+                    ]
+                },
+                {
+                    "name": "DoctorAppointment",
+                    "slots": [
+                        {
+                            "name": "doct",
+                            "type": "doct"
+                        }
+                    ],
+                    "samples": [
+                        "book my  appointment from {doct}"
+                    ]
+                },
+                {
+                    "name": "checkdoctor",
+                    "slots": [],
+                    "samples": [
+                        "available doctors",
+                        "show list of available doctors"
+                    ]
+                },
+                {
+                    "name": "confirm",
+                    "slots": [],
+                    "samples": [
+                        "what is my appointment status",
+                        "is my appointment confirmed"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "doct",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Balaji"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ravi Shanker Reddy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chandrashekar Reddy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nageshwaraiah"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": " Ashok Kumar Reddy "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "surya"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
